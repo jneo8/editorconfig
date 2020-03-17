@@ -35,3 +35,12 @@ indent_size = 2
 [*.go]
 indent_style = tab
 indent_size = 8
+
+[*.{md,txt}]
+indent_size = space
+indent_size = 4
+trim_trailing_whitespace = false
+
+[*.{yaml,yml}]
+indent_size = 2
+indent_style = space
